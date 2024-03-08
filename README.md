@@ -11,5 +11,6 @@
 ### uniq
 ### wc
 ### split
+### cat
 ### awk
 ### sed
