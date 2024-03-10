@@ -25,7 +25,8 @@ Displays the contents in the end of the file. <br>
 Splits a file into multiple chunks and names them based on the guidaance provided<br>
 <b>split -d -l 500 -a 3 something.csv something-part-</b> Split the file with 500 lines each, use numeric suffix for each file, the numeric suffix should be of 3 digits, and the split file should start with the word "something-part-".<br>
 <b>split -d -n 3 -a 3 something.csv something-part-</b> Same above about except, instead of using number of lines, split the files into 3 chunks (it will be two equal chunks and whaever is left out)
-
+<b>split -b [K|k|M|m|G|g] ...</b> You can split files by various byte counts (kilo, mega, and giga) - same rules about files names can be specified
+<b>split -p <regular expression> ...</b> You can split by the existence of a regular expression pattern in a file 
 ### I want to combine multiple files
 ### cat
 ### I am interested in only certain columns or fields 
