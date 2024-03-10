@@ -19,13 +19,19 @@ Displays the contents in the end of the file. <br>
 <b>tail -b</b> read the number of bytes from the end of the file.<br>
 <b>tail -r</b> display data in reverse order<br>
 <b>fail -F</b> A more powerful version of -f where the file name changes, rotations and new file creation can also be watched.<br>
-### grep
+<b> tail -q</b> Supresses file name header when combining multiple files
+### Now I know the file is too big and I want to break it dont into smaller pieces
+### split
+### I want to combine multiple files
+### cat
+### I am interested in only certain columns or fields 
 ### cut
-### tr
+### I want to find certain type of rows or do some row level filtering
+### grep
+### Do some sorting and deduplication
 ### sort
 ### uniq
-
-### split
-### cat
+### Do transformation (find and replace)
+### tr
 ### awk
 ### sed
