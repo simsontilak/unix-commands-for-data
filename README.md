@@ -22,6 +22,8 @@ Displays the contents in the end of the file. <br>
 <b> tail -q</b> Supresses file name header when combining multiple files
 ### Now I know the file is too big and I want to break it dont into smaller pieces
 ### split
+Splits a file into multiple chunks and names them based on the guidaance provided
+<b>split -d -l 500 - -a 3 something.csv something-part-</b> Split the file with 500 lines each, use numeric suffix for each file, the numeric suffix should be of 3 digits, the split file should start with the word "something-part-".<br>
 ### I want to combine multiple files
 ### cat
 ### I am interested in only certain columns or fields 
