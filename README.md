@@ -1,7 +1,5 @@
-# unix-commands-for-data
-## Basic commands
-
-### First I need to get an understanding for the size of the file - use wc command
+# Unix commands useful in data analysis
+## First I need to get an understanding for the size of the file - use wc command
 ### wc
 <b>wc -l <filename></b> counts the number of lines in a file <br>
 <b>wc -w <filename></b> counts the number of words (delimited by any space chars) in a file <br>
