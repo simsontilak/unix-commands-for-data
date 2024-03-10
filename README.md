@@ -4,7 +4,7 @@
 
 ### wc
 wc -l <filename> counts the number of lines in a file <br>
-wc -w <filename> counts the number of works (delimited by any space chars) in a file <br>
+wc -w <filename> counts the number of words (delimited by any space chars) in a file <br>
 wc -b <filename> counts the number of bytes <br>
 wc -m <filename> counts the numebr of multibyte chars <br>
 
