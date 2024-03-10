@@ -17,7 +17,7 @@ Displays the contents in the end of the file. <br>
 <b>tail -f</b> read the end of the file continously. Very useful when you want to watch logs accumulating over time.<br>
 <b>tail -n</b> read the number of lines from the end of the file.<br>
 <b>tail -b</b> read the number of bytes from the end of the file.<br>
-<b>tail -r<b> display data in reverse order<br>
+<b>tail -r</b> display data in reverse order<br>
 <b>fail -F</b> A more powerful version of -f where the file name changes, rotations and new file creation can also be watched.<br>
 ### grep
 ### cut
