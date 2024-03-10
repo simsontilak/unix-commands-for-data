@@ -3,7 +3,7 @@
 
 ### First I need to get an understanding for the size of the file - use wc command
 ### wc
-<code style="color : black"><b>wc -l <filename></b></code> counts the number of lines in a file <br>
+<code style="color : black">wc -l <filename></code> counts the number of lines in a file <br>
 <b>wc -w <filename></b> counts the number of words (delimited by any space chars) in a file <br>
 <b>wc -b <filename></b> counts the number of bytes <br>
 <b>wc -m <filename></b> counts the numebr of multibyte chars <br>
