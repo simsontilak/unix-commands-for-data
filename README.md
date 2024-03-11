@@ -35,12 +35,17 @@ Combines multiple files into one file<br>
 <b>cat -s file1.csv file2.csv</b> removes blank lines
 ## I am interested in only certain columns or fields 
 ### cut
-### I want to find certain type of rows or do some row level filtering
+Exatracts specific fields from a delimited file.<br>
+<b>cut -d=',' -s -f 1-3,5,7- file.csv</b> In a comma delimited file, extrace fields 1,2,3,5 and anything on or after 7th field. Remove lines that is not delimited.<br>
+<b>cut -W -s -f 1-3,5,7- file.csv</b> Same as above with any space char as delimiter.<br>
+<b>cut -b 1-3,5,7- file.csv</b> Same as above but look for byte position.<br>
+<b>cut -c 1-3,5,7- file.csv</b> Same as above but look for character position (for multibyte strings)<br>
+## I want to find certain type of rows or do some row level filtering
 ### grep
 ### Do some sorting and deduplication
 ### sort
 ### uniq
-### Do transformation (find and replace)
+## I want to do transformation (find and replace)
 ### tr
 ### awk
 ### sed
